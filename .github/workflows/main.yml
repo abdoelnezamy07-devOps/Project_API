@@ -2,7 +2,7 @@ name: first workflow
 on:
   push:
     branches:
-      - main
+      - master
 jobs:
   examble-job:
     runs-on: ubuntu-latest

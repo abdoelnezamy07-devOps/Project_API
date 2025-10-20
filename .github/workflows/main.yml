@@ -4,7 +4,8 @@ on:
     branches:
       - master
 jobs:
-  examble-job:
+  example-job:
+    runs-on: ubuntu-latest
     steps:
       - name: print welcome massage
         run: echo "welcome to my first workflow"
